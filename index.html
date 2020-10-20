@@ -625,7 +625,8 @@
         <script src='https://natyazhnie-potolki.herokuapp.com/token.js'></script>
         <script type="text/javascript">
             var feed = new Instafeed({
-              accessToken: InstagramToken
+                accessToken: InstagramToken,
+                template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
             });
             feed.run();
         </script>
