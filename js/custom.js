@@ -4,7 +4,7 @@ $(document).ready(function() {
     var userFeed = new Instafeed({
         get: 'user',
         userId: '2945152756',
-        limit: 12,
+        limit: 8,
         resolution: 'standard_resolution',
         accessToken: 'IGQVJYQUZAEaEdnNm9paVB2aU9CRlFFVDFtbEZAiUXN4Q2J2alVzeGtGcmFKU192SDIxNTNSX29sY3NFZA3YzWWN6MU1mVUxYZAmRyc21jMHAtOEllY29EdWhVWDBPTFM2ejJYZAXR5bzdoWnc2X3lXQVF1OAZDZD',
         sortBy: 'most-recent',
