@@ -10069,7 +10069,7 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #000000;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10120,7 +10120,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10507,20 +10507,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 992px) {
   .main-logo{
-    display: none;
-  }
-  .navbar-logo{
-    display: block;
-  }
-  .navbar-minimize-logo{
-    display: none;
-  }
-}
-@media (min-width: 992px) {
-  .navbar-logo{
-    display: none;
-  }
-  .navbar-minimize-logo{
-    display: block;
+    width: 100%;
   }
 }
