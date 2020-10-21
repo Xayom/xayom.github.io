@@ -3,12 +3,12 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '2945152756',
-        limit: 8,
+        userId: '39676335782',
+        limit: 3,
         resolution: 'standard_resolution',
-        accessToken: 'IGQVJYQUZAEaEdnNm9paVB2aU9CRlFFVDFtbEZAiUXN4Q2J2alVzeGtGcmFKU192SDIxNTNSX29sY3NFZA3YzWWN6MU1mVUxYZAmRyc21jMHAtOEllY29EdWhVWDBPTFM2ejJYZAXR5bzdoWnc2X3lXQVF1OAZDZD',
+        accessToken: 'IGQVJVRGdudzFZARDUwVjJLbVp2X2dqNXlpUG1BVTJkNFc3RHZAJNjFoOHRxVGctYi1KdlM3ME0zUXBxMFRlLXc0MWI5am5hTmx0MEI5Y1lZANVEzZAUsxVDdHTFFyV25nTFBlS0U5WVVIeHB3RzNzWmNLMAZDZD',
         sortBy: 'most-recent',
-        template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<div class="col-lg-4 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
 
 
